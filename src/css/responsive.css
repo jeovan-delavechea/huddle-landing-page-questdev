@@ -1,0 +1,63 @@
+@media(max-width: 900px){
+    main{
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-size: cover;
+        background-color: var(--Violet);
+        min-height: 100vh;
+        gap: 3rem
+    }
+
+    .header img{
+        max-width: 150px;
+    }
+    
+    .principal{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 0;
+        gap: 3rem;
+    }
+
+    .principal .invite-box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .principal .invite-box .invite-title{
+        font-size: 1.6rem; 
+        margin-bottom: 1rem;
+    }
+
+    .principal .invite-box .invite-text{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .principal .invite-box .register{
+        font-size: 0.9rem;
+        padding: 0.9rem 6rem;
+    }
+
+    .footer{
+        gap: 2rem;
+        margin: 0;
+    }
+
+    .footer .social{
+        align-self: center;
+    }
+
+    .footer .social a{
+        margin: 0 0.2rem;
+    }
+
+    .footer .attribution{
+        text-align: center;
+    }
+}
+
